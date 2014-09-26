@@ -19,10 +19,9 @@ angular
     'ui.sortable',
     'LocalStorageModule'
   ])
-  .config(['localStorageServiceProvider', function(localStorageServiceProvider){
+  .config(function ($routeProvider, localStorageServiceProvider) {
     localStorageServiceProvider.setPrefix('ls');
-  }])
-  .config(function ($routeProvider) {
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',

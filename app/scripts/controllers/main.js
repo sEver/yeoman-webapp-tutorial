@@ -10,12 +10,12 @@
 angular.module('yeoman0App')
   .controller('MainCtrl', function ($scope, localStorageService) {
 
-    $scope.todos = [
-      //'Go through the tutorial.',
-      //'Make conclusions.',
-      //'Use the workflow in future projects.',
-      //'Profit'
-    ];
+    var todosInStore = localStorageService.get('todos');
+    $scope.todos = todosInStore && todosInStore.split('\n') || [];
+
+    $scope.$watch('todos', function(){
+      localStorageService.add('todos',$scope.todos.join('\n'));
+    }, true);
 
     $scope.addTodo = function () {
       $scope.todos.push($scope.todo);
