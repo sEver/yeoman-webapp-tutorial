@@ -1,0 +1,190 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'generator-angular@0.9.2' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'generator-angular@0.9.2', null ]
+6 verbose cache add name=undefined spec="generator-angular@0.9.2" args=["generator-angular@0.9.2",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'generator-angular@0.9.2',
+7 verbose parsed url   path: 'generator-angular@0.9.2',
+7 verbose parsed url   href: 'generator-angular@0.9.2' }
+8 verbose cache add name="generator-angular" spec="0.9.2" args=["generator-angular","0.9.2"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '0.9.2',
+9 verbose parsed url   path: '0.9.2',
+9 verbose parsed url   href: '0.9.2' }
+10 verbose addNamed [ 'generator-angular', '0.9.2' ]
+11 verbose addNamed [ '0.9.2', '0.9.2' ]
+12 silly lockFile c4136bb8-generator-angular-0-9-2 generator-angular@0.9.2
+13 verbose lock generator-angular@0.9.2 /home/sever/.npm/c4136bb8-generator-angular-0-9-2.lock
+14 verbose request where is /generator-angular
+15 verbose request registry https://registry.npmjs.org/
+16 verbose request id d2a6f88d23582140
+17 verbose url raw /generator-angular
+18 verbose url resolving [ 'https://registry.npmjs.org/', './generator-angular' ]
+19 verbose url resolved https://registry.npmjs.org/generator-angular
+20 verbose request where is https://registry.npmjs.org/generator-angular
+21 info trying registry request attempt 1 at 15:24:45
+22 http GET https://registry.npmjs.org/generator-angular
+23 http 200 https://registry.npmjs.org/generator-angular
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Fri, 26 Sep 2014 13:24:46 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"C59B9KLUJ44AOD98XFX5P4F"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=60',
+24 silly registry.get     'content-length': '58588',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '4484',
+24 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1411737886.168391,VS0,VE107',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile 17ac4852-ular-generator-angular-0-9-2-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+26 verbose lock https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz /home/sever/.npm/17ac4852-ular-generator-angular-0-9-2-tgz.lock
+27 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz',
+27 verbose addRemoteTarball   '0d69ca85a7f10a4465c6d5d7374ecfff9736cc67' ]
+28 info retry fetch attempt 1 at 15:24:46
+29 verbose fetch to= /tmp/user/1000/npm-23468-IIX-O7an/registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+30 http GET https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+31 http 200 https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+32 silly lockFile 17ac4852-ular-generator-angular-0-9-2-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+33 silly lockFile 17ac4852-ular-generator-angular-0-9-2-tgz https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz
+34 silly lockFile c4136bb8-generator-angular-0-9-2 generator-angular@0.9.2
+35 silly lockFile c4136bb8-generator-angular-0-9-2 generator-angular@0.9.2
+36 silly resolved [ { name: 'generator-angular',
+36 silly resolved     version: '0.9.2',
+36 silly resolved     description: 'Yeoman generator for AngularJS',
+36 silly resolved     keywords:
+36 silly resolved      [ 'yeoman-generator',
+36 silly resolved        'scaffold',
+36 silly resolved        'framework',
+36 silly resolved        'component',
+36 silly resolved        'front-end',
+36 silly resolved        'app',
+36 silly resolved        'angular' ],
+36 silly resolved     author: { name: 'The Yeoman Team' },
+36 silly resolved     main: 'app/index.js',
+36 silly resolved     files:
+36 silly resolved      [ 'app',
+36 silly resolved        'common',
+36 silly resolved        'constant',
+36 silly resolved        'controller',
+36 silly resolved        'decorator',
+36 silly resolved        'directive',
+36 silly resolved        'factory',
+36 silly resolved        'filter',
+36 silly resolved        'main',
+36 silly resolved        'provider',
+36 silly resolved        'route',
+36 silly resolved        'service',
+36 silly resolved        'templates',
+36 silly resolved        'value',
+36 silly resolved        'view',
+36 silly resolved        'script-base.js',
+36 silly resolved        'util.js' ],
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'https://github.com/yeoman/generator-angular' },
+36 silly resolved     scripts: { test: 'mocha' },
+36 silly resolved     dependencies:
+36 silly resolved      { wiredep: '^1.0.0',
+36 silly resolved        'yeoman-generator': '^0.16.0',
+36 silly resolved        yosay: '^0.2.0',
+36 silly resolved        chalk: '^0.4.0' },
+36 silly resolved     peerDependencies: { 'generator-karma': '>=0.8.2', yo: '>=1.0.0' },
+36 silly resolved     devDependencies:
+36 silly resolved      { grunt: '~0.4.1',
+36 silly resolved        'grunt-contrib-jshint': '~0.8.0',
+36 silly resolved        'grunt-conventional-changelog': '~1.1.0',
+36 silly resolved        'grunt-release': '~0.6.0',
+36 silly resolved        'load-grunt-tasks': '~0.3.0',
+36 silly resolved        mocha: '*',
+36 silly resolved        semver: '~2.3.0',
+36 silly resolved        'underscore.string': '~2.3.1' },
+36 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+36 silly resolved     licenses: [ [Object] ],
+36 silly resolved     gitHead: '11a6e2fcd18bfa8cfd14855539dfda6b1abda223',
+36 silly resolved     bugs: { url: 'https://github.com/yeoman/generator-angular/issues' },
+36 silly resolved     homepage: 'https://github.com/yeoman/generator-angular',
+36 silly resolved     _id: 'generator-angular@0.9.2',
+36 silly resolved     _shasum: '0d69ca85a7f10a4465c6d5d7374ecfff9736cc67',
+36 silly resolved     _from: 'generator-angular@0.9.2',
+36 silly resolved     _npmVersion: '1.4.17',
+36 silly resolved     _npmUser: { name: 'eddiemonge', email: 'eddie+npm@eddiemonge.com' },
+36 silly resolved     maintainers:
+36 silly resolved      [ [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object],
+36 silly resolved        [Object] ],
+36 silly resolved     dist:
+36 silly resolved      { shasum: '0d69ca85a7f10a4465c6d5d7374ecfff9736cc67',
+36 silly resolved        tarball: 'http://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz' },
+36 silly resolved     directories: {},
+36 silly resolved     _resolved: 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.9.2.tgz' } ]
+37 info install generator-angular@0.9.2 into /usr/lib
+38 info installOne generator-angular@0.9.2
+39 verbose lib/node_modules/generator-angular unbuild
+40 verbose tar unpack /home/sever/.npm/generator-angular/0.9.2/package.tgz
+41 silly lockFile 9c6101a0-b-node-modules-generator-angular tar:///usr/lib/node_modules/generator-angular
+42 verbose lock tar:///usr/lib/node_modules/generator-angular /home/sever/.npm/9c6101a0-b-node-modules-generator-angular.lock
+43 silly lockFile 8dcc111a-erator-angular-0-9-2-package-tgz tar:///home/sever/.npm/generator-angular/0.9.2/package.tgz
+44 verbose lock tar:///home/sever/.npm/generator-angular/0.9.2/package.tgz /home/sever/.npm/8dcc111a-erator-angular-0-9-2-package-tgz.lock
+45 silly gunzTarPerm modes [ '775', '664' ]
+46 error Error: EACCES, mkdir '/usr/lib/node_modules/generator-angular'
+46 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/generator-angular']
+46 error   errno: 3,
+46 error   code: 'EACCES',
+46 error   path: '/usr/lib/node_modules/generator-angular',
+46 error   fstream_type: 'Directory',
+46 error   fstream_path: '/usr/lib/node_modules/generator-angular',
+46 error   fstream_class: 'DirWriter',
+46 error   fstream_stack:
+46 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+46 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+46 error      'Object.oncomplete (fs.js:107:15)' ] }
+47 error Please try running this command again as root/Administrator.
+48 error System Linux 3.13.0-35-generic
+49 error command "/usr/bin/node" "/usr/bin/npm" "install" "--global" "generator-angular@0.9.2"
+50 error cwd /home/sever/workspace/learning/yeoman-0
+51 error node -v v0.10.32
+52 error npm -v 1.4.28
+53 error path /usr/lib/node_modules/generator-angular
+54 error fstream_path /usr/lib/node_modules/generator-angular
+55 error fstream_type Directory
+56 error fstream_class DirWriter
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/usr/lib/node_modules/generator-angular'
+60 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+60 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+60 error fstream_stack Object.oncomplete (fs.js:107:15)
+61 verbose exit [ 3, true ]
