@@ -9,9 +9,10 @@
  */
 angular.module('yeoman0App')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+    $scope.todos = [
+      'Go through the tutorial.',
+      'Make conclusions.',
+      'Use the workflow in future projects.',
+      'Profit'
     ];
   });
